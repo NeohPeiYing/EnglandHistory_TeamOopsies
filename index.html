@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>England's History</title>
+        <link rel="stylesheet" href="style.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    </head>
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        AOS.init({
+            once: false,
+            mirror: true
+        });
+    });
+    </script>
+    <body>
+        <header class="header">
+            <div class="header-left"></div>
+            <a href="index.html" class="logo">England's History</a>
+
+            <input type="checkbox" id="check">
+            <label for="check" class="icons">
+                <i class='bx bx-menu' id="menu-icon"></i>
+                <i class='bx bx-x' id="close-icon"></i>
+            </label>
+
+            <nav class="navbar">
+                <a href="#collections"style="--i:0">Collections</a>
+                <a href="#history"style="--i:1">History</a>
+                <a href="#modern-era"style="--i:2">Modern Era</a>
+                <a href="#contact"style="--i:3">Contact</a>
+            </nav>
+        </header>
+
+        <section id="hero">
+            <div class="hero-text">
+                <hr class="line1" data-aos="fade-down" data-aos-duration="1000">
+                <div class="hero-text1" data-aos="fade-down" data-aos-duration="1000">
+                    <h2>England's Everlasting Past</h2>
+                </div>
+                <div class="hero-text2" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+                    <h2>Chronicles of History</h2>
+                </div>
+                <hr class="line2" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="hero-text3" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+                    <p>Uncover England's timeless History.</p>
+                </div>
+                <button class="header-button" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000" onclick="scrollToCollections()" id="dive-deeper">Dive Deeper</button>
+            </div>
+        </section> <!--End of Hero and Header Section-->
+
+        <main class="main-content">
+            <section class="collections" id="collections">
+                <article class="collection-text1">
+                    <h2>Explore the<br>Collections</h2>
+                </article>
+
+                <div class="collection-row">
+                    <article class="collection-item" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="image-container">
+                            <img src="Images/queenelizabethonee.png" alt="Queen Elizabeth 1" class="collection-img">
+
+                            <div class="image-overlay">
+                                <h3>Queen Elizabeth I</h3>
+                                <h3>1533–1603</h3>
+                                <p>The Virgin Queen who ruled England for 44 years.</p>
+                            </div>
+                            <div class="mobile-hint">Tap to view more</div>
+                        </div>
+                    </article>
+
+                    <article class="collection-item" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+                        <div class="image-container">
+                            <img src="Images/williamcollectionimg.png" alt="William Shakespeare" class="collection-img">
+
+                            <div class="image-overlay">
+                                <h3>William Shakespeare</h3>
+                                <h3>1564–1616</h3>
+                                <p>England's greatest playwright.</p>
+                            </div>
+                            <div class="mobile-hint">Tap to view more</div>
+                        </div>
+                    </article>
+
+                    <article class="collection-item" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+                        <div class="image-container">
+                            <img src="Images/isaaccollectionimg.png" alt="Isaac Newton" class="collection-img">
+
+                            <div class="image-overlay">
+                                <h3>Isaac Newton</h3>
+                                <h3>1643–1727</h3>
+                                <p>Father of modern physics.</p>
+                            </div>
+                            <div class="mobile-hint">Tap to view more</div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section class="history" id="history">
+                <div class="scroll-frame" data-aos="zoom-in" data-aos-duration="500">
+
+                <div class="history-text1" data-aos="fade-down" data-aos-delay="100" data-aos-duration="1000">
+                    <h2>England Through Time</h2>
+                </div>
+
+                <div class="history-p1" data-aos="fade-down" data-aos-delay="300" data-aos-duration="800">
+                    <p>Journey through the key eras and turning points that shaped<br>England’s history—from ancient beginnings to modern transformation.</p>
+                </div>
+                
+                        <div class="history-text1" data-aos="fade-down" data-aos-duration="1000">The Norman Conquest<br>(1066–1154)</div>
+
+                        <div class="history-container">
+                            <div class="history-boxes">
+                                <div class="history-box1" data-aos="fade-down" data-aos-delay="100" data-aos-anchor-placement="top-bottom">
+                                    <div class="label1">Battle of Hastings (1066)</div>
+                                    <div class="content">
+                                        <h4>This was the battle that marked the turning point when William, Duke of Normandy, defeated King Harold II of England. The death of Harold in the battle allowed William to inherit the throne of England, thus marking the beginning of Norman domination of England.</h4>
+                                    </div>
+                                </div>
+
+                <!--The Norman Conquest box 2-->
+                                <div class="history-box2" data-aos="fade-down" data-aos-duration="1000">
+                                    <div class="label2">Feudal System</div>
+                                    <div class="content">
+                                        <h4>Following the conquest, William introduced the feudal system, redistributing land to his Norman supporters. This change reshaped England’s political structure, replacing the Anglo-Saxon elite with Norman nobility and altering the country’s social hierarchy.</h4>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <img src="Images/William1.png" class="history-image1" data-aos="flip-down" data-aos-delay="100" data-aos-duration="1000">
+                        </div>
+
+                        <div class="history-text2" data-aos="fade-down" data-aos-duration="1000">Magna Carta<br>(1215)</div>
+                            <div class="history-container">
+                            <div class="history-boxes">
+                                <div class="history-box3" data-aos="fade-down" data-aos-delay="100" data-aos-duration="1000">
+                                    <div class="label3">Limitation of Royal Power</div>
+                                    <div class="content">
+                                        <h4>The Magna Carta limited the power of King John, establishing that the king was subject to the law, not above it. It prevented the king from making arbitrary decisions, especially in terms of taxation and legal matters.</h4>
+                                    </div>
+                                </div>
+
+                                <div class="history-box4" data-aos="fade-down" data-aos-duration="1000">
+                                    <div class="label4">Protection of Barons' Rights</div>
+                                    <div class="content">
+                                        <h4>The document granted certain protections to the barons, ensuring their rights were upheld, such as fair treatment under the law, protection from excessive taxes, and the right to a fair trial.</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="Images/magnacarta.png" class="history-image2" alt="Magna Carta" data-aos="flip-up" data-aos-delay="100" data-aos-duration="1000">
+                        </div>
+
+                        <div class="history-text3" data-aos="fade-down" data-aos-duration="1000">The War of Roses<br>(1455-1487)</div>
+                            <div class="history-container">
+                            <div class="history-boxes">
+                                <div class="history-box5" data-aos="fade-down" data-aos-delay="100" data-aos-duration="1000">
+                                    <div class="label5">Rivalry Between Houses</div>
+                                    <div class="content">
+                                        <h4>The wars were fought between the Lancasters and the Yorks, two noble families who both sought control of the English throne, leading to a prolonged period of civil war.</h4>
+                                    </div>
+                                </div>
+
+                                <div class="history-box6" data-aos="fade-down" data-aos-duration="1000">
+                                    <div class="label6">End of the Conflict</div>
+                                    <div class="content">
+                                        <h4>The wars ended in 1485 with the Battle of Bosworth Field, where Henry Tudor (Henry VII) defeated Richard III, marking the end of the conflict and the beginning of the Tudor dynasty.</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="Images/The-war-of-roses.png" class="history-image3" alt="The war of Roses" data-aos="flip-down" data-aos-delay="100" data-aos-duration="1000">
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <section id="quote" class="quote">
+            <div class="quote-container" data-aos="flip-down" data-aos-duration="1000">
+                <div class="quote-text1">Quotes from the past</div>
+                <hr class="line3">
+
+                <div class="quote-slider">
+                    <div class="quote-slide active">
+                        <h3>"To be, or not to be, that is the question."</h3>
+                        <h4>— William Shakespeare</h4>
+                    </div>
+                    <div class="quote-slide">
+                        <h3>"I will have but one mistress here — and no master."</h3>
+                        <h4>— Queen Elizabeth I</h4>
+                    </div>
+                    <div class="quote-slide">
+                        <h3>"We shall never surrender."</h3>
+                        <h4>— Winston Churchill</h4>
+                    </div>
+                </div>
+                <div class="quote-slider-controls">
+                    <button class="quote-prev">&#10094;</button>
+                    <button class="quote-next">&#10095;</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="modern-era" class="modern-era">
+            <div class="modern-container">
+                <div class="modern-text1" data-aos="fade-right" data-aos-duration="1000">England: 20th Century to Today</div>
+                <div class="modern-p1" data-aos="fade-up" data-aos-delay="200" data-aos-duration="700">
+                    <h4>The Modern Era in England marks a period of profound change, resilience, and reinvention.<br> From the aftermath of World War II to Brexit, England has continuously adapted to global shifts while shaping modern culture, politics, and technology.</h4>
+                </div>
+
+                <!--Cards-->
+                <div class="flip-card-container">
+                    <!--Card 1-->
+                    <div class="flip-card" id="post-war" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <div class="tap-hint">Tap to flip</div>
+                                <h3>Post-War Recovery</h3>
+                                <i class='bx bx-first-aid'></i>
+                            </div>
+                            <div class="flip-card-back">
+                                <h4>(1945–1960s)</h4>
+                                    <ul>
+                                        <li>Massive rebuilding after WWII destruction</li>
+                                        <li>Establishment of the National Health</li>
+                                        <li>Decolonization and the end of the British Empire</li>
+                                        <li>Rise of the welfare state</li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Card 2-->
+                    <div class="flip-card" id="cultural-revolution" data-aos="fade-down" data-aos-delay="100" data-aos-duration="1000">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <div class="tap-hint">Tap to flip</div>
+                                <h3>Cultural Revolution</h3>
+                                <i class='bx  bx-building-house'></i> 
+                            </div>
+                            <div class="flip-card-back">
+                                <h4>(1960s–1970s)</h4>
+                                <ul>
+                                    <li>The "Swinging Sixties" in London: fashion, music, and youth culture</li>
+                                    <li>The Beatles, The Rolling Stones, and the British Invasion</li>
+                                    <li>Social liberalization: civil rights, women's right, and decriminalization reforms</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Card 3-->
+                    <div class="flip-card" id="economic-shifts" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <div class="tap-hint">Tap to flip</div>
+                                <h3>Economic and Political Shifts</h3>
+                                <i class='bx bx-bar-chart'></i>
+                            </div>
+                            <div class="flip-card-back">
+                                <h4>(1980s–1990s)</h4>
+                                <ul>
+                                    <li>Margaret Thatcher's government: privatization, deregulation, and the end of nationalized industries</li>
+                                    <li>Strikes and economic tension (e.g., miners' strikes)</li>
+                                    <li>Rise of New Labour and Tony Blair in 1997</li>
+                                    <li>Advances in technology and globalization</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Card 4-->
+                    <div class="flip-card" id="modern-identity" data-aos="fade-down" data-aos-delay="300" data-aos-duration="1000">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <div class="tap-hint">Tap to flip</div>
+                                <h3>Modern Challenges and Identity</h3>
+                                <i class='bx  bx-globe'></i> 
+                            </div>
+                            <div class="flip-card-back">
+                                <h4>(2000s–Present)</h4>
+                                <ul>
+                                    <li>2005 London bombings and global terrorism impact</li>
+                                    <li>Financial crisis of 2008</li>
+                                    <li>Brexit: the 2016 referendum and UK's exit from the European Union (2020)</li>
+                                    <li>National debates on immigration, identity, and the monarchy (including the reign of King Charles III)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="quiz" class="quiz-section">
+            <h2 class="quiz-title" data-aos="fade-down">Test your knowledge!</h2>
+            <div id="quiz-progress" class="quiz-progress"></div>
+            <div class="quiz-box" data-aos="fade-up">
+                <div class="quiz-question" id="quiz-question">
+
+                    <div class="quiz-card active-question" id="start-screen">
+                        <h4 class="question-text">Ready to test your knowledge?</h4>
+                        <p>Challenge yourself with 3 quick questions about England's rich history. No pressure—just see what you know!</p>
+                        <button class="next-btn" onclick="startQuiz()">Start the test</button>
+                    </div>
+
+                    <div class="quiz-card question-card">
+                        <p class="question-text">Who won the Battle of Hastings?</p>
+                        <label><input type="radio" name="q1" value="a"> Harold II</label><br>
+                        <label><input type="radio" name="q1" value="b"> William the Conqueror</label><br>
+                        <label><input type="radio" name="q1" value="c"> Henry VII</label><br>
+                    </div>
+
+                    <div class="quiz-card question-card">
+                        <p class="question-text">What document limited the king's power in 1215?</p>
+                        <label><input type="radio" name="q2" value="a"> Magna Carta</label><br>
+                        <label><input type="radio" name="q2" value="b"> Royal Charter</label><br>
+                        <label><input type="radio" name="q2" value="c"> Bill of Rights</label><br>
+                    </div>
+
+                    <div class="quiz-card question-card">
+                        <p class="question-text">Who was England's monarch during most of the 20th century?</p>
+                        <label><input type="radio" name="q3" value="a"> Queen Victoria</label><br>
+                        <label><input type="radio" name="q3" value="b"> King George VI</label><br>
+                        <label><input type="radio" name="q3" value="c"> Queen Elizabeth II</label><br>
+                    </div>
+
+                    <div class="quiz-card quiz-question">
+                        <p class="question-text">Who was the first Tudor monarch of England?</p>
+                        <label><input type="radio" name="q4" value="a"> Henry VIII</label><br>
+                        <label><input type="radio" name="q4" value="b"> Richard III</label><br>
+                        <label><input type="radio" name="q4" value="c"> Henry II</label><br>
+                    </div>
+
+                    <div class="quiz-card question-card">
+                        <p class="question-text">In what year did the Battle of Hastings take place?</p>
+                        <label><input type="radio" name="q5" value="a"> 1066</label><br>
+                        <label><input type="radio" name="q5" value="b"> 1215</label><br>
+                        <label><input type="radio" name="q5" value="c"> 1415</label><br>
+                    </div>
+
+                    <div class="quiz-card question-card">
+                        <p class="question-text">What major event did the Magna Carta initiate in 1215?</p>
+                        <label><input type="radio" name="q6" value="a"> The Start of the English Civil War</label><br>
+                        <label><input type="radio" name="q6" value="b"> Limiting the power of the monarchy</label><br>
+                        <label><input type="radio" name="q6" value="c"> England's break from the Catholic Church</label><br>
+                    </div>
+
+                    <div class="quiz-card question-card">
+                        <p class="question-text">Who was the ruling queen during the Spanish Armada in 1588?</p>
+                        <label><input type="radio" name="q7" value="a"> Elizabeth I</label><br>
+                        <label><input type="radio" name="q7" value="b"> Mary I</label><br>
+                        <label><input type="radio" name="q7" value="c"> Anne Boleyn</label><br>
+                    </div>
+
+                    <div class="quiz-card question-card">
+                        <p class="question-text">What was the primary cause of the English Civil War?</p>
+                        <label><input type="radio" name="q8" value="a"> Viking invasions</label><br>
+                        <label><input type="radio" name="q8" value="b"> The Black Death</label><br>
+                        <label><input type="radio" name="q8" value="c"> Conflict between Parliament and the monarchy</label><br>
+                    </div>
+
+                    <div class="quiz-card question-card">
+                        <p class="question-text">Which king broke away from the Catholic Church and established the Church of England?</p>
+                        <label><input type="radio" name="q9" value="a"> Edward VI</label><br>
+                        <label><input type="radio" name="q9" value="b"> Henry VIII</label><br>
+                        <label><input type="radio" name="q9" value="c"> James I</label><br>
+                    </div>
+
+                    <div class="quiz-card question-card">
+                        <p class="question-text">What was the Black Death?</p>
+                        <label><input type="radio" name="q10" value="a"> A war between England and France</label><br>
+                        <label><input type="radio" name="q10" value="b"> A rebellion against the king</label><br>
+                        <label><input type="radio" name="q10" value="c"> A deadly plague that swept through England in the 14th century</label><br>
+                    </div>
+
+                    <div id="quiz-result" class="quiz-result"></div>
+                </div>
+        </section>
+        </main>
+
+        <section id="contact" class="contact">
+            <div class="contact-container">
+                <div class="contact-info" data-aos="fade-down" data-aos-duration="1000">
+                    <h2>Let's get in touch!</h2>
+                    <h5 data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200">Have questions or feedback? Don't hesitate to contact us, we're all ears!</h5>
+                    <p data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">Email: neohpeiying9@gmail.com</p>
+                </div>
+                <form data-aos="fade-up" data-aos-duration="1000" class="contact-form" action="https://formspree.io/f/xjkwnewq" method="POST">
+                    <h3>Contact us!</h3>
+
+                    <input type="text" name="_gotcha" style="display: none;">
+                    <input type="hidden" name="_redirect" value="thankyou.html">
+                    <input type="text" name="name" placeholder="Your name" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                    <textarea name="message" placeholder="Type your message here..." required></textarea>
+                    <button type="submit">Send message</button>
+                </form>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-text">
+                    <p>© 2025 England History. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+        <script src="app.js"></script>
+</body>
+</html>
