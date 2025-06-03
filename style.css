@@ -1632,3 +1632,25 @@ label.incorrect {
         opacity: 1 !important;
     }
 }
+
+/* Social Links */
+
+/* Social Links */
+
+.footer-social {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.footer-social a i {
+    font-size: 1.5rem;
+    color: #121922;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.footer-social a:hover i {
+    color: #FFD700;
+    transform: scale(1.2);
+}
