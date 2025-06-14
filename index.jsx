@@ -1,4 +1,7 @@
-import { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from 'react';
+import './style.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 // Scroll to Collections Section
 const scrollToCollections = () => {
